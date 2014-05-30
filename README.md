@@ -9,8 +9,8 @@ Creational Patterns
 * `Factory Method`
 * `Abstract Factory`
 * `Builder`
-* `Lazy initialization`
-* Multiton
+* `Lazy Initialization`
+* `Multiton`
 * Object Pool
 * Prototype
 * Resource Acquisition is Initialization
