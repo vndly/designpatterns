@@ -1,4 +1,4 @@
-package creational.builder.good;
+package creational.builder;
 
 public class PersonBuilder
 {
