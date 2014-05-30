@@ -4,10 +4,10 @@ public class Person
 {
 	public final String name; // required
 	public final String surname; // required
-	public int age = 0; // optional
-	public float weight = 0; // optional
-	public String phone = ""; // optional
-	public String address = ""; // optional
+	public final int age; // optional
+	public final float weight; // optional
+	public final String phone; // optional
+	public final String address; // optional
 	
 	private Person(String name, String surname, int age, float weight, String phone, String address)
 	{
