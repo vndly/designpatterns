@@ -11,6 +11,6 @@ public class MSWindow implements Window
 	@Override
 	public void display()
 	{
-		// Microsoft Windows specific behavior
+		System.out.println("Displaying Microsoft Windows window...");
 	}
 }

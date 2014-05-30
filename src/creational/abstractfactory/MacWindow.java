@@ -11,6 +11,6 @@ public class MacWindow implements Window
 	@Override
 	public void display()
 	{
-		// Mac OS specific behavior
+		System.out.println("Displaying Mac OS window...");
 	}
 }
