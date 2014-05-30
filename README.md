@@ -11,7 +11,7 @@ Creational Patterns
 * `Builder`
 * `Lazy Initialization`
 * `Multiton`
-* Object Pool
+* `Object Pool`
 * Prototype
 * Resource Acquisition is Initialization
 * Singleton
