@@ -13,8 +13,7 @@ Creational Patterns
 * `Multiton`
 * `Object Pool`
 * `Prototype`
-* Resource Acquisition is Initialization
-* Singleton
+* `Singleton`
 
 Structural Patterns
 -------------------
