@@ -5,6 +5,6 @@ public class Triangle implements Shape
 	@Override
 	public void draw()
 	{
-		// Draws the triangle
+		System.out.println("Drawing triangle...");
 	}
 }
