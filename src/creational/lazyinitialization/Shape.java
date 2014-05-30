@@ -20,7 +20,6 @@ public class Shape
 	
 	public void draw()
 	{
-		// Draws the shape
 		System.out.println(this.type);
 	}
 	
