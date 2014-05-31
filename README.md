@@ -23,7 +23,6 @@ Structural Patterns
 * `Composite`
 * `Decorator`
 * `Facade`
-
 * Flyweight
 * Front Controller
 * Module
