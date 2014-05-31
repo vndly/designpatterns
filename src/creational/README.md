@@ -5,4 +5,19 @@ Creational patterns are design patterns that deal with object creation mechanism
 
 The creational patterns aim to separate a system from how its objects are created, composed, and represented. They increase the system's flexibility in terms of the what, who, how, and when of object creation.
 
-Creational design patterns are composed of two dominant ideas. One is encapsulating knowledge about which concrete classes the system uses. Another is hiding how instances of these concrete classes are created and combined.
+Creational patterns are composed of two dominant ideas:
+
+* Encapsulate knowledge about which concrete classes the system uses
+* Hide how instances of these concrete classes are created and combined
+
+List of creational patterns
+---------------------------
+
+* `Abstract Factory`
+* `Builder`
+* `Factory Method`
+* `Lazy Initialization`
+* `Multiton`
+* `Object Pool`
+* `Prototype`
+* `Singleton`
