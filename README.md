@@ -21,10 +21,9 @@ Structural Patterns
 * `Adapter or Translator`
 * `Bridge`
 * `Composite`
+* `Decorator`
+* `Facade`
 
-
-* Decorator
-* Facade
 * Flyweight
 * Front Controller
 * Module
