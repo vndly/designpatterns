@@ -4,17 +4,17 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		GUIBuilder builder = new GUIBuilder();
+		GuiBuilder builder = new GuiBuilder();
 		AbstractWindowFactory windowFactory = null;
 		String platform = System.getProperty("os.name").toLowerCase();
 		
-		if (platform.startsWith("win"))
+		if (platform.startsWith("mac"))
 		{
-			windowFactory = new MSWindowFactory();
+			windowFactory = new MacWindowFactory();
 		}
 		else
 		{
-			windowFactory = new MacWindowFactory();
+			windowFactory = new LinuxWindowFactory();
 		}
 		
 		builder.buildWindow(windowFactory);

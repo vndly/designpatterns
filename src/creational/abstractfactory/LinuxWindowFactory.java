@@ -1,11 +1,11 @@
 package creational.abstractfactory;
 
-public class MSWindowFactory implements AbstractWindowFactory
+public class LinuxWindowFactory implements AbstractWindowFactory
 {
 	@Override
 	public Window createWindow()
 	{
-		MSWindow window = new MSWindow();
+		LinuxWindow window = new LinuxWindow();
 		
 		return window;
 	}
