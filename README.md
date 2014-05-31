@@ -18,7 +18,7 @@ Creational Patterns
 Structural Patterns
 -------------------
 
-* Adapter / Wrapper / Translator
+* `Adapter or Translator`
 * Aggregate
 * Bridge
 * Composite
