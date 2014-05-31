@@ -19,9 +19,10 @@ Structural Patterns
 -------------------
 
 * `Adapter or Translator`
+* `Bridge`
 * `Composite`
 
-* Bridge
+
 * Decorator
 * Facade
 * Flyweight
