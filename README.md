@@ -6,9 +6,9 @@ This repository aims to present an example of each design pattern using Java.
 Creational Patterns
 -------------------
 
-* `Factory Method`
 * `Abstract Factory`
 * `Builder`
+* `Factory Method`
 * `Lazy Initialization`
 * `Multiton`
 * `Object Pool`
@@ -19,9 +19,9 @@ Structural Patterns
 -------------------
 
 * `Adapter or Translator`
-* Aggregate
+* `Composite`
+
 * Bridge
-* Composite
 * Decorator
 * Facade
 * Flyweight
