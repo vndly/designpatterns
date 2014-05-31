@@ -1,13 +1,15 @@
 package structural.adapter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main
 {
 	public static void main(String[] args)
 	{
-		Shape[] shapes =
-			{
-				new Line(), new Rectangle()
-			};
+		List<Shape> shapes = new ArrayList<Shape>();
+		shapes.add(new Line());
+		shapes.add(new Rectangle());
 		
 		int x1 = 10;
 		int y1 = 20;
