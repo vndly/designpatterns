@@ -34,7 +34,7 @@ Behavioral Patterns
 * [`Chain of Responsibility`](src/behavioral/chainofresponsibility)
 * [`Command`](src/behavioral/command)
 * [`Interpreter`](src/behavioral/interpreter)
-* Iterator
+* [`Iterator`](src/behavioral/iterator)
 * Mediator
 * Memento
 * Null Object

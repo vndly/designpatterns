@@ -9,7 +9,7 @@ List of behavioral patterns
 * [`Chain of Responsibility`](chainofresponsibility)
 * [`Command`](command)
 * [`Interpreter`](interpreter)
-* [`Iterator`]
+* [`Iterator`](iterator)
 * [`Mediator`]
 * [`Memento`]
 * [`Null Object`]
