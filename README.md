@@ -25,8 +25,8 @@ Structural Patterns
 * `Facade`
 * `Flyweight`
 * `Front Controller`
-* Module
-* Proxy
+* `Module`
+* `Proxy`
 * Twin
 * Extensibility
 * Pipes and Filters
