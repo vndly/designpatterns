@@ -27,10 +27,6 @@ Structural Patterns
 * `Front Controller`
 * `Module`
 * `Proxy`
-* Twin
-* Extensibility
-* Pipes and Filters
-* Private class data
 
 Behavioral Patterns
 -------------------
