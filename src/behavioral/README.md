@@ -7,7 +7,7 @@ List of behavioral patterns
 ---------------------------
 
 * [`Chain of Responsibility`](chainofresponsibility)
-* [`Command`]
+* [`Command`](command)
 * [`Interpreter`]
 * [`Iterator`]
 * [`Mediator`]

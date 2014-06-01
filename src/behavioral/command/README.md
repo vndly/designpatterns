@@ -1,0 +1,4 @@
+Command Pattern
+===============
+
+The command pattern is a design pattern which encapsulates a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. Using command objects makes it easier to construct general components that need to delegate, sequence or execute method calls at a time of their choosing without the need to know the class of the method or the method parameters. Using an invoker object allows bookkeeping about command executions to be conveniently performed, as well as implementing different modes for commands, which are managed by the invoker object, without the need for the client to be aware of the existence of bookkeeping or modes.
