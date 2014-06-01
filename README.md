@@ -31,7 +31,7 @@ Structural Patterns
 Behavioral Patterns
 -------------------
 
-* Chain of Responsibility
+* `Chain of Responsibility`
 * Command
 * Interpreter
 * Iterator
