@@ -31,7 +31,6 @@ Structural Patterns
 Behavioral Patterns
 -------------------
 
-* Blackboard
 * Chain of Responsibility
 * Command
 * Interpreter
