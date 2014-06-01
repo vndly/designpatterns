@@ -6,32 +6,32 @@ This repository aims to present an example of each design pattern using **Java**
 Creational Patterns
 -------------------
 
-* `Abstract Factory`
-* `Builder`
-* `Factory Method`
-* `Lazy Initialization`
-* `Multiton`
-* `Object Pool`
-* `Prototype`
-* `Singleton`
+* [`Abstract Factory`](src/creational/abstractfactory)
+* [`Builder`](src/creational/builder)
+* [`Factory Method`](src/creational/factory)
+* [`Lazy Initialization`](src/creational/lazyinitialization)
+* [`Multiton`](src/creational/multiton)
+* [`Object Pool`](src/creational/objectpool)
+* [`Prototype`](src/creational/prototype)
+* [`Singleton`](src/creational/singleton)
 
 Structural Patterns
 -------------------
 
-* `Adapter or Translator`
-* `Bridge`
-* `Composite`
-* `Decorator`
-* `Facade`
-* `Flyweight`
-* `Front Controller`
-* `Module`
-* `Proxy`
+* [`Adapter or Translator`](src/structural/adapter)
+* [`Bridge`](src/structural/bridge)
+* [`Composite`](src/structural/composite)
+* [`Decorator`](src/structural/decorator)
+* [`Facade`](src/structural/facade)
+* [`Flyweight`](src/structural/flyweight)
+* [`Front Controller`](src/structural/frontcontroller)
+* [`Module`](src/structural/module)
+* [`Proxy`](src/structural/proxy)
 
 Behavioral Patterns
 -------------------
 
-* `Chain of Responsibility`
+* [`Chain of Responsibility`](src/behavioral/chainofresponsibility)
 * Command
 * Interpreter
 * Iterator

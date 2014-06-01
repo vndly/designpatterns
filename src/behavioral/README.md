@@ -6,21 +6,21 @@ Behavioral patterns are design patterns that identify common communication patte
 List of behavioral patterns
 ---------------------------
 
-* `Chain of Responsibility`
-* `Command`
-* `Interpreter`
-* `Iterator`
-* `Mediator`
-* `Memento`
-* `Null Object`
-* `Observer or Publish/Subscribe`
-* `Servant`
-* `Specification`
-* `State`
-* `Strategy`
-* `Template Method`
-* `Visitor`
-* `Hierarchical visitor`
-* `Protocol stack`
-* `Scheduled-Task`
-* `Single-Serving visitor`
+* [`Chain of Responsibility`](chainofresponsibility)
+* [`Command`]
+* [`Interpreter`]
+* [`Iterator`]
+* [`Mediator`]
+* [`Memento`]
+* [`Null Object`]
+* [`Observer or Publish/Subscribe`]
+* [`Servant`]
+* [`Specification`]
+* [`State`]
+* [`Strategy`]
+* [`Template Method`]
+* [`Visitor`]
+* [`Hierarchical Visitor`]
+* [`Protocol Stack`]
+* [`Scheduled-Task`]
+* [`Single-Serving Visitor`]

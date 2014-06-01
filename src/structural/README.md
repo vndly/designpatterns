@@ -6,17 +6,12 @@ Structural patterns are design patterns which ease the design by identifying a s
 List of creational patterns
 ---------------------------
 
-* [`Test 1`](https://github.com/mauriciotogneri/design-patterns/tree/master/src/structural/adapter)
-* [`Test 2`](design-patterns/tree/master/src/structural/adapter)
-* [`Test 3`](./adapter)
-* [`Test 4`](adapter)
-
-* `Adapter or Translator`
-* `Bridge`
-* `Composite`
-* `Decorator`
-* `Facade`
-* `Flyweight`
-* `Front Controller`
-* `Module`
-* `Proxy`
+* [`Adapter or Translator`](adapter)
+* [`Bridge`](bridge)
+* [`Composite`](composite)
+* [`Decorator`](decorator)
+* [`Facade`](facade)
+* [`Flyweight`](flyweight)
+* [`Front Controller`](frontcontroller)
+* [`Module`](module)
+* [`Proxy`](proxy)
