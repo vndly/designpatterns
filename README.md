@@ -24,7 +24,7 @@ Structural Patterns
 * `Decorator`
 * `Facade`
 * `Flyweight`
-* Front Controller
+* `Front Controller`
 * Module
 * Proxy
 * Twin
