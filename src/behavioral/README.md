@@ -10,8 +10,8 @@ List of behavioral patterns
 * [`Command`](command)
 * [`Interpreter`](interpreter)
 * [`Iterator`](iterator)
-* [`Mediator`]
-* [`Memento`]
+* [`Mediator`](mediator)
+* [`Memento`](memento)
 * [`Null Object`]
 * [`Observer or Publish/Subscribe`]
 * [`Servant`]

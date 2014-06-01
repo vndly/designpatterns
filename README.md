@@ -35,8 +35,8 @@ Behavioral Patterns
 * [`Command`](src/behavioral/command)
 * [`Interpreter`](src/behavioral/interpreter)
 * [`Iterator`](src/behavioral/iterator)
-* Mediator
-* Memento
+* [`Mediator`](src/behavioral/mediator)
+* [`Memento`](src/behavioral/memento)
 * Null Object
 * Observer or Publish/Subscribe
 * Servant
