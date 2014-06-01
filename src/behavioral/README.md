@@ -12,7 +12,7 @@ List of behavioral patterns
 * [`Iterator`](iterator)
 * [`Mediator`](mediator)
 * [`Memento`](memento)
-* [`Null Object`]
+* [`Null Object`](nullobject)
 * [`Observer or Publish/Subscribe`]
 * [`Servant`]
 * [`Specification`]
