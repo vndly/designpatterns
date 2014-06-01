@@ -6,6 +6,7 @@ public class DatabaseConnection
 	
 	private DatabaseConnection()
 	{
+		System.out.println("Initializing database connection...");
 	}
 	
 	public static synchronized DatabaseConnection getInstance()
