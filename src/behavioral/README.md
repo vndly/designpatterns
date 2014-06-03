@@ -13,7 +13,7 @@ List of behavioral patterns
 * [`Mediator`](mediator)
 * [`Memento`](memento)
 * [`Null Object`](nullobject)
-* [`Observer or Publish/Subscribe`]
+* [`Observer`](observer)
 * [`Servant`]
 * [`Specification`]
 * [`State`]

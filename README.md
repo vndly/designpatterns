@@ -38,7 +38,7 @@ Behavioral Patterns
 * [`Mediator`](src/behavioral/mediator)
 * [`Memento`](src/behavioral/memento)
 * [`Null Object`](src/behavioral/nullobject)
-* Observer or Publish/Subscribe
+* [`Observer`](src/behavioral/observer)
 * Servant
 * Specification
 * State
