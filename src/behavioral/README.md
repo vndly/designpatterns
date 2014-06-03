@@ -14,7 +14,7 @@ List of behavioral patterns
 * [`Memento`](memento)
 * [`Null Object`](nullobject)
 * [`Observer`](observer)
-* [`Servant`]
+* [`Servant`](servant)
 * [`Specification`]
 * [`State`]
 * [`Strategy`]

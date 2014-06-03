@@ -39,7 +39,7 @@ Behavioral Patterns
 * [`Memento`](src/behavioral/memento)
 * [`Null Object`](src/behavioral/nullobject)
 * [`Observer`](src/behavioral/observer)
-* Servant
+* [`Servant`](src/behavioral/servant)
 * Specification
 * State
 * Strategy
