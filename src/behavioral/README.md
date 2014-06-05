@@ -18,5 +18,5 @@ List of behavioral patterns
 * [`Specification`]
 * [`State`](state)
 * [`Strategy`](strategy)
-* [`Template Method`]
+* [`Template Method`](templatemethod)
 * [`Visitor`]
