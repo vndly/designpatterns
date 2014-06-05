@@ -17,6 +17,6 @@ List of behavioral patterns
 * [`Servant`](servant)
 * [`Specification`]
 * [`State`](state)
-* [`Strategy`]
+* [`Strategy`](strategy)
 * [`Template Method`]
 * [`Visitor`]

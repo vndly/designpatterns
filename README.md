@@ -42,7 +42,7 @@ Behavioral Patterns
 * [`Servant`](src/behavioral/servant)
 * Specification
 * [`State`](src/behavioral/state)
-* Strategy
+* [`Strategy`](src/behavioral/strategy)
 * Template Method
 * Visitor
 
