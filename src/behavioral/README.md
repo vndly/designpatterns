@@ -19,4 +19,4 @@ List of behavioral patterns
 * [`State`](state)
 * [`Strategy`](strategy)
 * [`Template Method`](templatemethod)
-* [`Visitor`]
+* [`Visitor`](visitor)

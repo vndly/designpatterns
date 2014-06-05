@@ -44,7 +44,7 @@ Behavioral Patterns
 * [`State`](src/behavioral/state)
 * [`Strategy`](src/behavioral/strategy)
 * [`Template Method`](src/behavioral/templatemethod)
-* Visitor
+* [`Visitor`](src/behavioral/visitor)
 
 Concurrency Patterns
 --------------------
