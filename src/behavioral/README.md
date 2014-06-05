@@ -16,11 +16,7 @@ List of behavioral patterns
 * [`Observer`](observer)
 * [`Servant`](servant)
 * [`Specification`]
-* [`State`]
+* [`State`](state)
 * [`Strategy`]
 * [`Template Method`]
 * [`Visitor`]
-* [`Hierarchical Visitor`]
-* [`Protocol Stack`]
-* [`Scheduled-Task`]
-* [`Single-Serving Visitor`]

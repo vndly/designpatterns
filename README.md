@@ -41,14 +41,10 @@ Behavioral Patterns
 * [`Observer`](src/behavioral/observer)
 * [`Servant`](src/behavioral/servant)
 * Specification
-* State
+* [`State`](src/behavioral/state)
 * Strategy
 * Template Method
 * Visitor
-* Hierarchical visitor
-* Protocol stack
-* Scheduled-Task
-* Single-Serving visitor
 
 Concurrency Patterns
 --------------------
