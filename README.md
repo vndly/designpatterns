@@ -52,8 +52,7 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 * [`Active Object`](src/concurrency/activeobject#active-object-pattern)
 * [`Balking`](src/concurrency/balking#balking-pattern)
 * [`Double-Checked Locking`](src/concurrency/doublecheckedlocking#double-checked-locking-pattern)
-* [`Event-Based Asynchronous`]
-* [`Guarded Suspension`]
+* [`Guarded Suspension`](src/concurrency/guardedsuspension#guarded-suspension-pattern)
 * [`Join`]
 * [`Lock`]
 * [`Messaging design pattern (MDP)`]

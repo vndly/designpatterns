@@ -9,8 +9,7 @@ List of Concurrency patterns
 * [`Active Object`](activeobject#active-object-pattern)
 * [`Balking`](balking#balking-pattern)
 * [`Double-Checked Locking`](doublecheckedlocking#double-checked-locking-pattern)
-* [`Event-Based Asynchronous`]
-* [`Guarded Suspension`]
+* [`Guarded Suspension`](guardedsuspension#guarded-suspension-pattern)
 * [`Join`]
 * [`Lock`]
 * [`Messaging design pattern (MDP)`]
