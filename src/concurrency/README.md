@@ -8,18 +8,17 @@ List of Concurrency patterns
 
 * [`Active Object`](activeobject#active-object-pattern)
 * [`Balking`](balking#balking-pattern)
-* `Binding Properties`
-* `Double-Checked Locking`
-* `Event-Based Asynchronous`
-* `Guarded Suspension`
-* `Join`
-* `Lock`
-* `Messaging design pattern (MDP)`
-* `Monitor Object`
-* `Reactor`
-* `Read-Write Lock`
-* `Scheduler`
-* `Thread Pool`
-* `Thread-Specific Storage`
-* `Leaders/Followers`
-* `Barrier`
+* [`Double-Checked Locking`](doublecheckedlocking#double-checked-locking-pattern)
+* [`Event-Based Asynchronous`]
+* [`Guarded Suspension`]
+* [`Join`]
+* [`Lock`]
+* [`Messaging design pattern (MDP)`]
+* [`Monitor Object`]
+* [`Reactor`]
+* [`Read-Write Lock`]
+* [`Scheduler`]
+* [`Thread Pool`]
+* [`Thread-Specific Storage`]
+* [`Leaders/Followers`]
+* [`Barrier`]

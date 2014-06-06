@@ -37,7 +37,7 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 * [`Iterator`](src/behavioral/iterator#iterator-pattern)
 * [`Mediator`](src/behavioral/mediator#mediator-pattern)
 * [`Memento`](src/behavioral/memento#memento-pattern)
-* [`Null Object`](src/behavioral/nullobject#nullobject-pattern)
+* [`Null Object`](src/behavioral/nullobject#null-object-pattern)
 * [`Observer`](src/behavioral/observer#observer-pattern)
 * [`Servant`](src/behavioral/servant#servant-pattern)
 * [`Specification`](src/behavioral/specification#specification-pattern)
@@ -51,8 +51,7 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 
 * [`Active Object`](src/concurrency/activeobject#active-object-pattern)
 * [`Balking`](src/concurrency/balking#balking-pattern)
-* [`Binding Properties`]
-* [`Double-Checked Locking`]
+* [`Double-Checked Locking`](src/concurrency/doublecheckedlocking#double-checked-locking-pattern)
 * [`Event-Based Asynchronous`]
 * [`Guarded Suspension`]
 * [`Join`]
