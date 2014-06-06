@@ -1,4 +1,4 @@
-package creational.factory;
+package creational.factorymethod;
 
 public class Triangle implements Shape
 {

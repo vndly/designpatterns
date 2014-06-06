@@ -1,6 +1,6 @@
-package creational.factory;
+package creational.factorymethod;
 
-import creational.factory.Shape.Type;
+import creational.factorymethod.Shape.Type;
 
 public class Main
 {
