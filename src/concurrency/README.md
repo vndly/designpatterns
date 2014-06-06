@@ -10,8 +10,7 @@ List of Concurrency patterns
 * [`Balking`](balking#balking-pattern)
 * [`Double-Checked Locking`](doublecheckedlocking#double-checked-locking-pattern)
 * [`Guarded Suspension`](guardedsuspension#guarded-suspension-pattern)
-* [`Join`]
-* [`Lock`]
+* [`Lock`](lock#lock-pattern)
 * [`Messaging design pattern (MDP)`]
 * [`Monitor Object`]
 * [`Reactor`]
