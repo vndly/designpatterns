@@ -8,7 +8,7 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 
 * [`Abstract Factory`](src/creational/abstractfactory#abstract-factory-pattern)
 * [`Builder`](src/creational/builder#builder-pattern)
-* [`Factory Method`](src/creational/factory#factory-pattern)
+* [`Factory Method`](src/creational/factorymethod#factory-method-pattern)
 * [`Lazy Initialization`](src/creational/lazyinitialization#lazy-initialization-pattern)
 * [`Multiton`](src/creational/multiton#multiton-pattern)
 * [`Object Pool`](src/creational/objectpool#object-pool-pattern)
@@ -18,39 +18,39 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 [Structural Patterns](src/structural#structural-patterns)
 ---------------------
 
-* [`Adapter or Translator`](src/structural/adapter)
-* [`Bridge`](src/structural/bridge)
-* [`Composite`](src/structural/composite)
-* [`Decorator`](src/structural/decorator)
-* [`Facade`](src/structural/facade)
-* [`Flyweight`](src/structural/flyweight)
-* [`Front Controller`](src/structural/frontcontroller)
-* [`Module`](src/structural/module)
-* [`Proxy`](src/structural/proxy)
+* [`Adapter or Translator`](src/structural/adapter#adapter-or-translator-pattern)
+* [`Bridge`](src/structural/bridge#bridge-pattern)
+* [`Composite`](src/structural/composite#composite-pattern)
+* [`Decorator`](src/structural/decorator#decorator-pattern)
+* [`Facade`](src/structural/facade#facade-pattern)
+* [`Flyweight`](src/structural/flyweight#flyweight-pattern)
+* [`Front Controller`](src/structural/frontcontroller#front-controller-pattern)
+* [`Module`](src/structural/module#module-pattern)
+* [`Proxy`](src/structural/proxy#proxy-pattern)
 
 [Behavioral Patterns](src/behavioral#behavioral-patterns)
 ---------------------
 
-* [`Chain of Responsibility`](src/behavioral/chainofresponsibility)
-* [`Command`](src/behavioral/command)
-* [`Interpreter`](src/behavioral/interpreter)
-* [`Iterator`](src/behavioral/iterator)
-* [`Mediator`](src/behavioral/mediator)
-* [`Memento`](src/behavioral/memento)
-* [`Null Object`](src/behavioral/nullobject)
-* [`Observer`](src/behavioral/observer)
-* [`Servant`](src/behavioral/servant)
-* [`Specification`](src/behavioral/specification)
-* [`State`](src/behavioral/state)
-* [`Strategy`](src/behavioral/strategy)
-* [`Template Method`](src/behavioral/templatemethod)
-* [`Visitor`](src/behavioral/visitor)
+* [`Chain of Responsibility`](src/behavioral/chainofresponsibility#chain-of-responsibility-pattern)
+* [`Command`](src/behavioral/command#command-pattern)
+* [`Interpreter`](src/behavioral/interpreter#interpreter-pattern)
+* [`Iterator`](src/behavioral/iterator#iterator-pattern)
+* [`Mediator`](src/behavioral/mediator#mediator-pattern)
+* [`Memento`](src/behavioral/memento#memento-pattern)
+* [`Null Object`](src/behavioral/nullobject#nullobject-pattern)
+* [`Observer`](src/behavioral/observer#observer-pattern)
+* [`Servant`](src/behavioral/servant#servant-pattern)
+* [`Specification`](src/behavioral/specification#specification-pattern)
+* [`State`](src/behavioral/state#state-pattern)
+* [`Strategy`](src/behavioral/strategy#strategy-pattern)
+* [`Template Method`](src/behavioral/templatemethod#template-method-pattern)
+* [`Visitor`](src/behavioral/visitor#visitor-pattern)
 
 [Concurrency Patterns](src/concurrency#concurrency-patterns)
 ----------------------
 
-* [`Active Object`](src/concurrency/activeobject)
-* [`Balking`](src/concurrency/balking)
+* [`Active Object`](src/concurrency/activeobject#active-object-pattern)
+* [`Balking`](src/concurrency/balking#balking-pattern)
 * [`Binding Properties`]
 * [`Double-Checked Locking`]
 * [`Event-Based Asynchronous`]

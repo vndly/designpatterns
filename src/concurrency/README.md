@@ -6,8 +6,8 @@ Concurrency patterns are design patterns that deal with the multi-threaded progr
 List of Concurrency patterns
 ----------------------------
 
-* [`Active Object`](activeobject)
-* [`Balking`](balking)
+* [`Active Object`](activeobject#active-object-pattern)
+* [`Balking`](balking#balking-pattern)
 * `Binding Properties`
 * `Double-Checked Locking`
 * `Event-Based Asynchronous`

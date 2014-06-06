@@ -13,11 +13,11 @@ Creational patterns are composed of two dominant ideas:
 List of creational patterns
 ---------------------------
 
-* [`Abstract Factory`](abstractfactory)
-* [`Builder`](builder)
-* [`Factory Method`](factory)
-* [`Lazy Initialization`](lazyinitialization)
-* [`Multiton`](multiton)
-* [`Object Pool`](objectpool)
-* [`Prototype`](prototype)
-* [`Singleton`](singleton)
+* [`Abstract Factory`](abstractfactory#abstract-factory-pattern)
+* [`Builder`](builder#builder-pattern)
+* [`Factory Method`](factorymethod#factory-method-pattern)
+* [`Lazy Initialization`](lazyinitialization#lazy-initialization-pattern)
+* [`Multiton`](multiton#multiton-pattern)
+* [`Object Pool`](objectpool#object-pool-pattern)
+* [`Prototype`](prototype#prototype-pattern)
+* [`Singleton`](singleton#singleton-pattern)
