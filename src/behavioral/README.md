@@ -15,7 +15,7 @@ List of behavioral patterns
 * [`Null Object`](nullobject)
 * [`Observer`](observer)
 * [`Servant`](servant)
-* [`Specification`]
+* [`Specification`](specification)
 * [`State`](state)
 * [`Strategy`](strategy)
 * [`Template Method`](templatemethod)

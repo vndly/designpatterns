@@ -40,7 +40,7 @@ Behavioral Patterns
 * [`Null Object`](src/behavioral/nullobject)
 * [`Observer`](src/behavioral/observer)
 * [`Servant`](src/behavioral/servant)
-* Specification
+* [`Specification`](src/behavioral/specification)
 * [`State`](src/behavioral/state)
 * [`Strategy`](src/behavioral/strategy)
 * [`Template Method`](src/behavioral/templatemethod)
