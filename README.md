@@ -6,14 +6,14 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 [Creational Patterns](src/creational#creational-patterns)
 ---------------------
 
-* [`Abstract Factory`](src/creational/abstractfactory)
-* [`Builder`](src/creational/builder)
-* [`Factory Method`](src/creational/factory)
-* [`Lazy Initialization`](src/creational/lazyinitialization)
-* [`Multiton`](src/creational/multiton)
-* [`Object Pool`](src/creational/objectpool)
-* [`Prototype`](src/creational/prototype)
-* [`Singleton`](src/creational/singleton)
+* [`Abstract Factory`](src/creational/abstractfactory#abstract-factory-pattern)
+* [`Builder`](src/creational/builder#builder-pattern)
+* [`Factory Method`](src/creational/factory#factory-pattern)
+* [`Lazy Initialization`](src/creational/lazyinitialization#lazy-initialization-pattern)
+* [`Multiton`](src/creational/multiton#multiton-pattern)
+* [`Object Pool`](src/creational/objectpool#object-pool-pattern)
+* [`Prototype`](src/creational/prototype#prototype-pattern)
+* [`Singleton`](src/creational/singleton#singleton-pattern)
 
 [Structural Patterns](src/structural#structural-patterns)
 ---------------------
@@ -50,19 +50,19 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 ----------------------
 
 * [`Active Object`](src/concurrency/activeobject)
-* Balking
-* Binding Properties
-* Double-Checked Locking
-* Event-Based Asynchronous
-* Guarded Suspension
-* Join
-* Lock
-* Messaging design pattern (MDP)
-* Monitor Object
-* Reactor
-* Read-Write Lock
-* Scheduler
-* Thread Pool
-* Thread-Specific Storage
-* Leaders/Followers
-* Barrier
+* [`Balking`](src/concurrency/balking)
+* [`Binding Properties`]
+* [`Double-Checked Locking`]
+* [`Event-Based Asynchronous`]
+* [`Guarded Suspension`]
+* [`Join`]
+* [`Lock`]
+* [`Messaging design pattern (MDP)`]
+* [`Monitor Object`]
+* [`Reactor`]
+* [`Read-Write Lock`]
+* [`Scheduler`]
+* [`Thread Pool`]
+* [`Thread-Specific Storage`]
+* [`Leaders/Followers`]
+* [`Barrier`]

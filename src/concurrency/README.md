@@ -7,7 +7,7 @@ List of Concurrency patterns
 ----------------------------
 
 * [`Active Object`](activeobject)
-* `Balking`
+* [`Balking`](balking)
 * `Binding Properties`
 * `Double-Checked Locking`
 * `Event-Based Asynchronous`
