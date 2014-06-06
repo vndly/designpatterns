@@ -3,8 +3,8 @@ Design Patterns
 
 A design pattern is a general reusable solution to a commonly occurring problem within a given context. A design pattern is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system. This repository aims to present an example of each design pattern using **Java**.
 
-Creational Patterns
--------------------
+[Creational Patterns](src/creational)
+---------------------
 
 * [`Abstract Factory`](src/creational/abstractfactory)
 * [`Builder`](src/creational/builder)
@@ -15,8 +15,8 @@ Creational Patterns
 * [`Prototype`](src/creational/prototype)
 * [`Singleton`](src/creational/singleton)
 
-Structural Patterns
--------------------
+[Structural Patterns](src/structural)
+---------------------
 
 * [`Adapter or Translator`](src/structural/adapter)
 * [`Bridge`](src/structural/bridge)
@@ -28,8 +28,8 @@ Structural Patterns
 * [`Module`](src/structural/module)
 * [`Proxy`](src/structural/proxy)
 
-Behavioral Patterns
--------------------
+[Behavioral Patterns](src/behavioral)
+---------------------
 
 * [`Chain of Responsibility`](src/behavioral/chainofresponsibility)
 * [`Command`](src/behavioral/command)
@@ -46,10 +46,10 @@ Behavioral Patterns
 * [`Template Method`](src/behavioral/templatemethod)
 * [`Visitor`](src/behavioral/visitor)
 
-Concurrency Patterns
---------------------
+[Concurrency Patterns](src/behavioral)
+----------------------
 
-* Active Object
+* [`Active Object`](src/behavioral/activeobject)
 * Balking
 * Binding Properties
 * Double-Checked Locking
