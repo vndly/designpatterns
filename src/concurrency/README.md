@@ -11,8 +11,7 @@ List of Concurrency patterns
 * [`Double-Checked Locking`](doublecheckedlocking#double-checked-locking-pattern)
 * [`Guarded Suspension`](guardedsuspension#guarded-suspension-pattern)
 * [`Lock`](lock#lock-pattern)
-* [`Messaging design pattern (MDP)`]
-* [`Monitor Object`]
+* [`Monitor Object`](monitorobject#monitor-object-pattern)
 * [`Reactor`]
 * [`Read-Write Lock`]
 * [`Scheduler`]

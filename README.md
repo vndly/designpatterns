@@ -54,8 +54,7 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 * [`Double-Checked Locking`](src/concurrency/doublecheckedlocking#double-checked-locking-pattern)
 * [`Guarded Suspension`](src/concurrency/guardedsuspension#guarded-suspension-pattern)
 * [`Lock`](src/concurrency/lock#lock-pattern)
-* [`Messaging design pattern (MDP)`]
-* [`Monitor Object`]
+* [`Monitor Object`](src/concurrency/monitorobject#monitor-object-pattern)
 * [`Reactor`]
 * [`Read-Write Lock`]
 * [`Scheduler`]
