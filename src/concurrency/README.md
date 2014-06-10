@@ -8,14 +8,13 @@ List of Concurrency patterns
 
 * [`Active Object`](activeobject#active-object-pattern)
 * [`Balking`](balking#balking-pattern)
+* [`Barrier`](barrier#barrier-pattern)
 * [`Double-Checked Locking`](doublecheckedlocking#double-checked-locking-pattern)
 * [`Guarded Suspension`](guardedsuspension#guarded-suspension-pattern)
 * [`Lock`](lock#lock-pattern)
 * [`Monitor Object`](monitorobject#monitor-object-pattern)
-* [`Reactor`]
 * [`Read-Write Lock`]
 * [`Scheduler`]
 * [`Thread Pool`]
 * [`Thread-Specific Storage`]
 * [`Leaders/Followers`]
-* [`Barrier`]

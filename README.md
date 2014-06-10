@@ -51,14 +51,13 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 
 * [`Active Object`](src/concurrency/activeobject#active-object-pattern)
 * [`Balking`](src/concurrency/balking#balking-pattern)
+* [`Barrier`](src/concurrency/barrier#barrier-pattern)
 * [`Double-Checked Locking`](src/concurrency/doublecheckedlocking#double-checked-locking-pattern)
 * [`Guarded Suspension`](src/concurrency/guardedsuspension#guarded-suspension-pattern)
 * [`Lock`](src/concurrency/lock#lock-pattern)
 * [`Monitor Object`](src/concurrency/monitorobject#monitor-object-pattern)
-* [`Reactor`]
 * [`Read-Write Lock`]
 * [`Scheduler`]
 * [`Thread Pool`]
 * [`Thread-Specific Storage`]
 * [`Leaders/Followers`]
-* [`Barrier`]
