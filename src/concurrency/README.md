@@ -13,7 +13,7 @@ List of Concurrency patterns
 * [`Guarded Suspension`](guardedsuspension#guarded-suspension-pattern)
 * [`Lock`](lock#lock-pattern)
 * [`Monitor Object`](monitorobject#monitor-object-pattern)
-* [`Read-Write Lock`]
+* [`Read-Write Lock`](read-write-lock#read-write-lock-pattern)
 * [`Scheduler`](scheduler#scheduler-pattern)
 * [`Thread Pool`]
 * [`Thread-Specific Storage`]
