@@ -1,12 +1,14 @@
 package concurrency.threadpool;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class ThreadPool
 {
 	private final Object threadPoolLock = new Object();
-	private final List<Runnable> taskQueue = new ArrayList<Runnable>();
+	private final Queue<Runnable> taskQueue = new LinkedList<Runnable>();
 	private final List<WorkerThread> workerThreadsList = new ArrayList<WorkerThread>();
 	
 	public ThreadPool(int poolSize)
@@ -52,8 +54,7 @@ public class ThreadPool
 		{
 			if (hasMoreTasks())
 			{
-				result = this.taskQueue.get(0);
-				this.taskQueue.remove(0);
+				result = this.taskQueue.poll();
 			}
 		}
 
