@@ -58,6 +58,5 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 * [`Monitor Object`](src/concurrency/monitorobject#monitor-object-pattern)
 * [`Read-Write Lock`](src/concurrency/readwritelock#read-write-lock-pattern)
 * [`Scheduler`](src/concurrency/scheduler#scheduler-pattern)
-* [`Thread Pool`]
-* [`Thread-Specific Storage`]
+* [`Thread Pool`](src/concurrency/threadpool#thread-pool)
 * [`Leaders/Followers`]
