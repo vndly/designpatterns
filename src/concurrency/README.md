@@ -15,4 +15,4 @@ List of Concurrency patterns
 * [`Monitor Object`](monitorobject#monitor-object-pattern)
 * [`Read-Write Lock`](readwritelock#read-write-lock-pattern)
 * [`Scheduler`](scheduler#scheduler-pattern)
-* [`Thread Pool`](threadpool#thread-pool)
+* [`Thread Pool`](threadpool#thread-pool-pattern)
