@@ -16,4 +16,3 @@ List of Concurrency patterns
 * [`Read-Write Lock`](readwritelock#read-write-lock-pattern)
 * [`Scheduler`](scheduler#scheduler-pattern)
 * [`Thread Pool`](threadpool#thread-pool)
-* [`Leaders/Followers`]
