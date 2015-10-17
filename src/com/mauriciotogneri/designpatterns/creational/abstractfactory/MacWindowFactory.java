@@ -2,11 +2,9 @@ package com.mauriciotogneri.designpatterns.creational.abstractfactory;
 
 public class MacWindowFactory implements AbstractWindowFactory
 {
-	@Override
-	public Window createWindow()
-	{
-		MacWindow window = new MacWindow();
-		
-		return window;
-	}
+    @Override
+    public Window createWindow()
+    {
+        return new MacWindow();
+    }
 }

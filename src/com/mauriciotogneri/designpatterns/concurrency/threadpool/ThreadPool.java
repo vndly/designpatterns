@@ -7,75 +7,75 @@ import java.util.Queue;
 
 public class ThreadPool
 {
-	private final Object threadPoolLock = new Object();
-	private final Queue<Runnable> taskQueue = new LinkedList<Runnable>();
-	private final List<WorkerThread> workerThreadsList = new ArrayList<WorkerThread>();
-	
-	public ThreadPool(int poolSize)
-	{
-		for (int i = 0; i < poolSize; i++)
-		{
-			WorkerThread thread = new WorkerThread(i, this);
-			this.workerThreadsList.add(thread);
-			thread.start();
-		}
-	}
-	
-	public void addTask(Runnable task)
-	{
-		synchronized (this.taskQueue)
-		{
-			this.taskQueue.add(task);
-			
-			synchronized (this.threadPoolLock)
-			{
-				this.threadPoolLock.notifyAll();
-			}
-		}
-	}
-	
-	public boolean hasMoreTasks()
-	{
-		boolean result = false;
+    private final Object threadPoolLock = new Object();
+    private final Queue<Runnable> taskQueue = new LinkedList<Runnable>();
+    private final List<WorkerThread> workerThreadsList = new ArrayList<WorkerThread>();
 
-		synchronized (this.taskQueue)
-		{
-			result = (!this.taskQueue.isEmpty());
-		}
+    public ThreadPool(int poolSize)
+    {
+        for (int i = 0; i < poolSize; i++)
+        {
+            WorkerThread thread = new WorkerThread(i, this);
+            this.workerThreadsList.add(thread);
+            thread.start();
+        }
+    }
 
-		return result;
-	}
+    public void addTask(Runnable task)
+    {
+        synchronized (this.taskQueue)
+        {
+            this.taskQueue.add(task);
 
-	public synchronized Runnable getNextTask()
-	{
-		Runnable result = null;
+            synchronized (this.threadPoolLock)
+            {
+                this.threadPoolLock.notifyAll();
+            }
+        }
+    }
 
-		synchronized (this.taskQueue)
-		{
-			if (hasMoreTasks())
-			{
-				result = this.taskQueue.poll();
-			}
-		}
+    public boolean hasMoreTasks()
+    {
+        boolean result = false;
 
-		return result;
-	}
-	
-	public Object getLock()
-	{
-		return this.threadPoolLock;
-	}
-	
-	public void shutdown()
-	{
-		for (WorkerThread thread : this.workerThreadsList)
-		{
-			thread.shutdown();
-		}
-		
-		synchronized (this.threadPoolLock)
-		{
-			this.threadPoolLock.notifyAll();
-		}
-	}
+        synchronized (this.taskQueue)
+        {
+            result = (!this.taskQueue.isEmpty());
+        }
+
+        return result;
+    }
+
+    public synchronized Runnable getNextTask()
+    {
+        Runnable result = null;
+
+        synchronized (this.taskQueue)
+        {
+            if (hasMoreTasks())
+            {
+                result = this.taskQueue.poll();
+            }
+        }
+
+        return result;
+    }
+
+    public Object getLock()
+    {
+        return this.threadPoolLock;
+    }
+
+    public void shutdown()
+    {
+        for (WorkerThread thread : this.workerThreadsList)
+        {
+            thread.shutdown();
+        }
+
+        synchronized (this.threadPoolLock)
+        {
+            this.threadPoolLock.notifyAll();
+        }
+    }
 }
