@@ -6,7 +6,7 @@ A design pattern is a general reusable solution to a commonly occurring problem 
 [Creational Patterns](src/creational#creational-patterns)
 ---------------------
 
-* [`Abstract Factory`](src/creational/abstractfactory#abstract-factory-pattern)
+* [`Abstract Factory`](src/com/mauriciotogneri/creational/abstractfactory#abstract-factory-pattern)
 * [`Builder`](src/creational/builder#builder-pattern)
 * [`Factory Method`](src/creational/factorymethod#factory-method-pattern)
 * [`Lazy Initialization`](src/creational/lazyinitialization#lazy-initialization-pattern)
