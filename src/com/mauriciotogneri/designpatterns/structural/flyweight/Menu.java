@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Menu
 {
-    private final Map<String, CoffeeFlavour> flavours = new HashMap<String, CoffeeFlavour>();
+    private final Map<String, CoffeeFlavour> flavours = new HashMap<>();
 
     public CoffeeFlavour lookup(String flavorName)
     {

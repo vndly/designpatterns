@@ -7,11 +7,9 @@ public class Counter
 
     public int getCount()
     {
-        int result = 0;
-
         this.lock.lock();
 
-        result = this.count;
+        int result = this.count;
 
         this.lock.unlock();
 

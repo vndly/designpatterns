@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CoffeeShop
 {
-    private final List<Order> orders = new ArrayList<Order>();
+    private final List<Order> orders = new ArrayList<>();
     private final Menu menu = new Menu();
 
     public void takeOrder(String flavourName, int table)

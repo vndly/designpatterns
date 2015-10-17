@@ -5,7 +5,7 @@ public class Main
     public static void main(String[] args)
     {
         GuiBuilder builder = new GuiBuilder();
-        AbstractWindowFactory windowFactory = null;
+        AbstractWindowFactory windowFactory;
         String platform = System.getProperty("os.name").toLowerCase();
 
         if (platform.startsWith("mac"))

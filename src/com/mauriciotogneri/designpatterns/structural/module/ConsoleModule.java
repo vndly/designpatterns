@@ -48,7 +48,7 @@ public class ConsoleModule
 
     public String readInput()
     {
-        String result = "";
+        String result;
 
         printOutput("Enter value: ");
 

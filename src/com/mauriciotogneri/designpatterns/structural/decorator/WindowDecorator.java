@@ -2,7 +2,7 @@ package com.mauriciotogneri.designpatterns.structural.decorator;
 
 public abstract class WindowDecorator implements Window
 {
-    protected Window windowToBeDecorated;
+    private final Window windowToBeDecorated;
 
     public WindowDecorator(Window windowToBeDecorated)
     {

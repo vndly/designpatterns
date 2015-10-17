@@ -7,7 +7,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        List<Shape> shapes = new ArrayList<Shape>();
+        List<Shape> shapes = new ArrayList<>();
         shapes.add(new Line());
         shapes.add(new Rectangle());
 

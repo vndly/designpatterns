@@ -9,7 +9,10 @@ public class Main
             @Override
             public DatabaseConnection createObject()
             {
-                return new DatabaseConnection("localhost", "uer", "1234");
+                DatabaseConnection databaseConnection = new DatabaseConnection("localhost", "uer", "1234");
+                databaseConnection.connect();
+
+                return databaseConnection;
             }
         };
 

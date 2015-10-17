@@ -2,7 +2,7 @@ package com.mauriciotogneri.designpatterns.behavioral.iterator;
 
 public interface Iterator<Type>
 {
-    public boolean hasNext();
+    boolean hasNext();
 
-    public Type next();
+    Type next();
 }

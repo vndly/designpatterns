@@ -9,7 +9,7 @@ public class Main
     {
         JobProcessor jobProcessor = new JobProcessor();
 
-        List<Integer> values = new ArrayList<Integer>();
+        List<Integer> values = new ArrayList<>();
         values.add(500);
         values.add(3500);
         values.add(300);

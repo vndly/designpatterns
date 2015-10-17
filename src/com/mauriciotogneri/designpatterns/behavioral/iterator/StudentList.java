@@ -5,18 +5,12 @@ import java.util.List;
 
 public class StudentList implements Collection<Student>
 {
-    private final List<Student> list = new ArrayList<Student>();
+    private final List<Student> list = new ArrayList<>();
 
     @Override
     public void add(Student student)
     {
         this.list.add(student);
-    }
-
-    @Override
-    public void remove(Student student)
-    {
-        this.list.remove(student);
     }
 
     @Override

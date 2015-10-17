@@ -9,7 +9,7 @@ public class Main
     {
         Resource resource = new Resource();
 
-        List<Thread> threads = new ArrayList<Thread>();
+        List<Thread> threads = new ArrayList<>();
 
         threads.add(new Thread(new Reader(resource), "READER A"));
         threads.add(new Thread(new Reader(resource), "READER B"));

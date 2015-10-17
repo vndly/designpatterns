@@ -4,7 +4,5 @@ public interface Collection<Type>
 {
     void add(Type student);
 
-    void remove(Type student);
-
     Iterator<Type> iterator();
 }

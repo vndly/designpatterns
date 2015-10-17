@@ -2,14 +2,12 @@ package com.mauriciotogneri.designpatterns.creational.prototype;
 
 public interface Shape extends Cloneable
 {
-    public enum Type
+    enum Type
     {
         CIRCLE, TRIANGLE, RECTANGLE
     }
 
-    ;
+    Shape clone() throws CloneNotSupportedException;
 
-    public Shape clone() throws CloneNotSupportedException;
-
-    public void draw();
+    void draw();
 }

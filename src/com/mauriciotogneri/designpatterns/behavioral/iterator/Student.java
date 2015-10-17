@@ -2,8 +2,8 @@ package com.mauriciotogneri.designpatterns.behavioral.iterator;
 
 public class Student
 {
-    public final int id;
-    public final String name;
+    private final int id;
+    private final String name;
 
     public Student(int id, String name)
     {
@@ -16,8 +16,8 @@ public class Student
     {
         StringBuffer buffer = new StringBuffer();
 
-        buffer.append("Id:   " + this.id + "\n");
-        buffer.append("Name: " + this.name + "\n");
+        buffer.append("Id:   ").append(this.id).append("\n");
+        buffer.append("Name: ").append(this.name).append("\n");
 
         return buffer.toString();
     }

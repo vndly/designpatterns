@@ -6,14 +6,12 @@ import java.util.Map;
 public class Shape
 {
     private final Type type;
-    private static Map<Type, Shape> types = new HashMap<Type, Shape>();
+    private final static Map<Type, Shape> types = new HashMap<>();
 
     public enum Type
     {
         CIRCLE, TRIANGLE, RECTANGLE
     }
-
-    ;
 
     private Shape(Type type)
     {
@@ -27,7 +25,7 @@ public class Shape
 
     public static Shape getShape(Type type)
     {
-        Shape shape = null;
+        Shape shape;
 
         if (Shape.types.containsKey(type))
         {

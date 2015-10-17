@@ -2,12 +2,12 @@ package com.mauriciotogneri.designpatterns.creational.builder;
 
 public class Person
 {
-    public final String name; // required
-    public final String surname; // required
-    public final int age; // optional
-    public final float weight; // optional
-    public final String phone; // optional
-    public final String address; // optional
+    private final String name; // required
+    private final String surname; // required
+    private final int age; // optional
+    private final float weight; // optional
+    private final String phone; // optional
+    private final String address; // optional
 
     private Person(String name, String surname, int age, float weight, String phone, String address)
     {
@@ -29,12 +29,12 @@ public class Person
     {
         StringBuffer buffer = new StringBuffer();
 
-        buffer.append("Name:    " + this.name + "\n");
-        buffer.append("Surname: " + this.surname + "\n");
-        buffer.append("Age:     " + this.age + "\n");
-        buffer.append("Weight:  " + this.weight + "\n");
-        buffer.append("Phone:   " + this.phone + "\n");
-        buffer.append("Address: " + this.address + "\n");
+        buffer.append("Name:    ").append(this.name).append("\n");
+        buffer.append("Surname: ").append(this.surname).append("\n");
+        buffer.append("Age:     ").append(this.age).append("\n");
+        buffer.append("Weight:  ").append(this.weight).append("\n");
+        buffer.append("Phone:   ").append(this.phone).append("\n");
+        buffer.append("Address: ").append(this.address).append("\n");
 
         return buffer.toString();
     }

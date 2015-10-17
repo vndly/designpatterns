@@ -8,8 +8,8 @@ import java.util.Queue;
 public class ThreadPool
 {
     private final Object threadPoolLock = new Object();
-    private final Queue<Runnable> taskQueue = new LinkedList<Runnable>();
-    private final List<WorkerThread> workerThreadsList = new ArrayList<WorkerThread>();
+    private final Queue<Runnable> taskQueue = new LinkedList<>();
+    private final List<WorkerThread> workerThreadsList = new ArrayList<>();
 
     public ThreadPool(int poolSize)
     {
@@ -36,7 +36,7 @@ public class ThreadPool
 
     public boolean hasMoreTasks()
     {
-        boolean result = false;
+        boolean result;
 
         synchronized (this.taskQueue)
         {

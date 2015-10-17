@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CompositeShape implements Shape
 {
-    private final List<Shape> children = new ArrayList<Shape>();
+    private final List<Shape> children = new ArrayList<>();
 
     @Override
     public void draw()
@@ -19,10 +19,5 @@ public class CompositeShape implements Shape
     public void add(Shape shape)
     {
         this.children.add(shape);
-    }
-
-    public void remove(Shape shape)
-    {
-        this.children.remove(shape);
     }
 }

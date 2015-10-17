@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class School
 {
-    private final Map<Integer, Student> students = new HashMap<Integer, Student>();
+    private final Map<Integer, Student> students = new HashMap<>();
 
     public School()
     {
@@ -16,7 +16,7 @@ public class School
 
     public Student getStudent(int id)
     {
-        Student result = null;
+        Student result;
 
         if (this.students.containsKey(id))
         {

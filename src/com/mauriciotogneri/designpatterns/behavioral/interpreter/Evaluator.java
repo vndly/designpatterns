@@ -8,28 +8,36 @@ public class Evaluator implements Expression
 
     public Evaluator(String expression)
     {
-        Stack<Expression> expressionStack = new Stack<Expression>();
+        Stack<Expression> expressionStack = new Stack<>();
         String[] tokens = expression.split(" ");
 
         for (String token : tokens)
         {
-            if (token.equals("+"))
+            switch (token)
             {
-                Expression right = expressionStack.pop();
-                Expression left = expressionStack.pop();
-                Expression subExpression = new Plus(left, right);
-                expressionStack.push(subExpression);
-            }
-            else if (token.equals("-"))
-            {
-                Expression right = expressionStack.pop();
-                Expression left = expressionStack.pop();
-                Expression subExpression = new Minus(left, right);
-                expressionStack.push(subExpression);
-            }
-            else
-            {
-                expressionStack.push(new Variable(token));
+                case "+":
+                {
+                    Expression right = expressionStack.pop();
+                    Expression left = expressionStack.pop();
+                    Expression subExpression = new Plus(left, right);
+                    expressionStack.push(subExpression);
+                    break;
+                }
+
+                case "-":
+                {
+                    Expression right = expressionStack.pop();
+                    Expression left = expressionStack.pop();
+                    Expression subExpression = new Minus(left, right);
+                    expressionStack.push(subExpression);
+                    break;
+                }
+
+                default:
+                {
+                    expressionStack.push(new Variable(token));
+                    break;
+                }
             }
         }
         this.syntaxTree = expressionStack.pop();

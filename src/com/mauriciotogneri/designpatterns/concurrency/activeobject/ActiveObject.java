@@ -59,8 +59,6 @@ public class ActiveObject
                 ActiveObject.this.value *= number;
                 System.out.println("New value: " + ActiveObject.this.value);
             }
-
-            ;
         });
     }
 
@@ -74,8 +72,6 @@ public class ActiveObject
                 ActiveObject.this.value += number;
                 System.out.println("New value: " + ActiveObject.this.value);
             }
-
-            ;
         });
     }
 }

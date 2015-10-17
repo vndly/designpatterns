@@ -11,7 +11,7 @@ public class Resource
 
     public Resource()
     {
-        this.content = new ArrayList<String>();
+        this.content = new ArrayList<>();
         this.lock = new ReentrantReadWriteLock();
     }
 

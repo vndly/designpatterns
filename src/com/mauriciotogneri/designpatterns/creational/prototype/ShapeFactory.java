@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class ShapeFactory
 {
-    private static Map<Type, Shape> prototypes = new HashMap<Type, Shape>();
+    private final static Map<Type, Shape> prototypes = new HashMap<>();
 
     static
     {

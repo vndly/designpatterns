@@ -22,6 +22,6 @@ public class VerticalScrollBarDecorator extends WindowDecorator
     @Override
     public String getDescription()
     {
-        return super.getDescription() + ", including vertical scrollbars";
+        return super.getDescription() + ", including vertical scroll bars";
     }
 }

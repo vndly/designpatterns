@@ -13,12 +13,12 @@ public class Pool<Type>
     {
         this.factory = factory;
         this.maxSize = maxSize;
-        this.freeObjects = new ArrayList<Type>();
+        this.freeObjects = new ArrayList<>();
     }
 
     public Type newObject()
     {
-        Type object = null;
+        Type object;
 
         if (this.freeObjects.isEmpty())
         {
